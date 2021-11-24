@@ -2,7 +2,7 @@ import './ExpenseDate.css'
 
 function ExpenseDate(props) {
     const month = props.expenseDate.toLocaleString('es-US', { month: 'long' })
-    const day = props.expenseDate.toLocaleString('es-US', { day: '2-digit' })
+    const day = props.expenseDate.getDay()
     const year = props.expenseDate.getFullYear()
 
     return (
