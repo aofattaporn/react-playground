@@ -1,3 +1,4 @@
+import React from 'react';
 
 function Card(props) {
     const classess = 'card ' + props.className
