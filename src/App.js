@@ -38,8 +38,8 @@ const App = () => {
   return (
     <div>
       <h2>Let's get starteddd!</h2>
-      <Expenses expenses={expenses} />
       <NewExpenses/>
+      <Expenses expenses={expenses} />
     </div>
   );
 }
