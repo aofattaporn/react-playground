@@ -29,6 +29,14 @@ const App = () => {
     },
   ];
 
+  const addExpenseHandler = expense => {
+    expenses.push(expense)
+    console.log("in App.js")
+    console.log(expense)
+    console.log("in App.js: expenses")
+    console.log(expenses)
+  }
+
   // return React.createElement(
   //   'div',
   //   {}, 
@@ -38,7 +46,7 @@ const App = () => {
   return (
     <div>
       <h2>Let's get starteddd!</h2>
-      <NewExpenses/>
+      <NewExpenses onCreateData={addExpenseHandler}/>
       <Expenses expenses={expenses} />
     </div>
   );
