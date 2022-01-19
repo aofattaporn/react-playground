@@ -4,6 +4,8 @@ import NewExpenses from './components/NexExpense/NewExpenses';
 
 // dfdfdsg
 const App = () => {
+
+  console.log("Hello world");
   const expenses = [
     {
       id: 'e1',
