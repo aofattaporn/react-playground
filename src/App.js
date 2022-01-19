@@ -2,6 +2,7 @@ import React from 'react';
 import Expenses from "./components/Expenses/Expenses";
 import NewExpenses from './components/NexExpense/NewExpenses';
 
+// dfdfdsg
 const App = () => {
   const expenses = [
     {
